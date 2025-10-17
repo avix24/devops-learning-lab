@@ -7,7 +7,6 @@ Create a Python Flask application connected to Redis to track page visits, using
 ## Steps to Run
 1. Navigate to the folder: `cd Day4_flask-redis-app`
 2. Build and start containers:
-   ```bash
    docker-compose up --build -d
 3. Open your browser and go to http://localhost:8080
 4. Refresh the page to see the visit count increment.
